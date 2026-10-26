@@ -1,0 +1,1 @@
+{"name":"rm-english-academy","version":"2.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test tests/*.test.mjs","test:e2e":"node tests/browser.mjs"},"devDependencies":{"@axe-core/playwright":"4.14.0","playwright":"1.64.1"}}

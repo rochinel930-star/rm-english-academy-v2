@@ -1,2 +1,17 @@
-# rm-english-academy-v2
-RM English Academy V2 — masterclasses en français, pratique active et préparation en anglais. Projet indépendant par RM Digital Ecom.
+# RM English Academy V2
+
+Application éducative en français, indépendante de RéviCam et de tout autre projet.
+
+## Démarrer
+
+Node.js 22 ou 24 : `npm start`, puis ouvrir http://127.0.0.1:4173.
+
+`npm test` exécute les tests du moteur et de la banque sans installation de dépendances.
+
+Les tests navigateur utilisent Playwright et axe-core en dépendances de développement. Voir TESTS.md pour les commandes et résultats réels.
+
+## Déploiement
+
+Projet Vercel autorisé uniquement : `prj_vxfVz2cEWXfAsoE3QasxBeyNx3hd`. Sortie `public`, sans compilation. Ne pas importer les fichiers de rapport comme ressources publiques. Aucun secret requis. Toute future publication sur un dépôt distant doit utiliser un nouveau dépôt propre au projet ; aucun autre dépôt ne doit recevoir ces fichiers.
+
+Lire AUDIT-30.md pour le périmètre et les limites de chaque demande, ARCHITECTURE.md pour les évolutions, LIVRAISON.md et TESTS.md pour la livraison vérifiée.

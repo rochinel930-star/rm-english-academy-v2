@@ -45,3 +45,6 @@ Les événements de réponse sont horodatés et les cartes reviennent à échéa
 
 ## Enrichissement 2.1
 Huit ateliers de cas difficiles, 72 QCM supplémentaires et deux lectures corrigées. Résultats et limites de recherche détaillés dans ENRICHISSEMENT-V2.1.md. Aucun statut complet supplémentaire attribué aux fonctions encore partielles.
+
+## Livraison V3
+25 chapitres, 125 activités de départ, 1 000 combinaisons de production guidée et trois sujets blancs avec six PDF. Modes accompagné/examen, reprise et auto-évaluation explicite. Voir LIVRAISON-V3.md. Les lignes 18 à 22 restent partielles au sens d’un alignement officiel certifié : les sujets sont originaux RM et les réponses libres sont auto-évaluées. Comptes, IA réelle et dashboard enseignant restent non livrés.

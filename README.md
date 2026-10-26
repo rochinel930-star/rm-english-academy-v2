@@ -17,3 +17,7 @@ Les tests navigateur utilisent Playwright et axe-core en dépendances de dévelo
 Projet Vercel autorisé uniquement : `prj_vxfVz2cEWXfAsoE3QasxBeyNx3hd`. Sortie `public`, sans compilation. Ne pas importer les fichiers de rapport comme ressources publiques. Aucun secret requis. Toute future publication sur un dépôt distant doit utiliser un nouveau dépôt propre au projet ; aucun autre dépôt ne doit recevoir ces fichiers.
 
 Lire AUDIT-30.md pour le périmètre et les limites de chaque demande, ARCHITECTURE.md pour les évolutions, LIVRAISON.md et TESTS.md pour la livraison vérifiée.
+
+## Version 3
+Parcours : /#programme. Épreuves : /#papers. Rapport : LIVRAISON-V3.md. Tests : npm test ; node tests/v3-browser.mjs ; node tests/variants-browser.mjs (serveur local actif).
+Les PDF proviennent de public/papers.js. Exporter ce tableau vers test-results/papers.json, puis exécuter scripts/build-papers.py avec Python, reportlab et pypdf. Le script utilise Arial sous Windows ; adapter les chemins des polices pour un autre environnement. Aucun service externe ne génère ni ne note les réponses.

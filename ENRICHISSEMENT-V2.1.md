@@ -37,3 +37,15 @@ Les exemples du produit sont originaux. Aucun sujet officiel ni exercice du Brit
 ## Ce qui n’est pas ajouté dans cette livraison
 
 Pas de correction IA de rédaction, d’évaluation phonétique automatique, de comptes synchronisés, de dashboard enseignant, ni d’examen officiel complet. La matrice AUDIT-30.md conserve explicitement ces écarts. Les nouveaux rappels libres ne sont pas notés ; les QCM le sont. Le brouillon de composition et le laboratoire oral existants restent disponibles.
+
+## Publication vérifiée
+
+Code livré : `910616a3bccdb81f7414a0b981830fa4bf1f5994` dans le dépôt dédié `rochinel930-star/rm-english-academy-v2`.
+Déploiement Vercel : `dpl_E9NvrQBGJ3ntXnmg1SRsmWLt6oPG`, état READY, projet existant uniquement.
+
+Les deux alias ont répondu HTTP 200 sans redirection SSO, dans un contexte navigateur anonyme :
+
+- https://rm-digital-ecom-english-academy.vercel.app/
+- https://rm-digital-ecom-english-academy-devs-projects-fc924e78.vercel.app/
+
+Sur chacun : huit ateliers visibles, séance ciblée avec correction, nouveau texte scientifique et lien WhatsApp vérifiés. Contrôle public complémentaire : cours, quiz, absence de débordement mobile et rechargement hors connexion réussis. Aucune erreur JavaScript détectée par le contrôle public de régression.

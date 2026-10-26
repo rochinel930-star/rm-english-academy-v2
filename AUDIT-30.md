@@ -11,7 +11,7 @@ Rapport complet fourni directement par l’utilisateur le 26 octobre 2026, aprè
 | 5 | Test de niveau initial intelligent | Partiel | Diagnostic équilibré de 12 questions, 3 par temps, bilan par compétence. Limité au présent ; pas de niveau CECRL ni placement calibré. |
 | 6 | Carte de maîtrise des compétences | Fait | Cinq états : Non étudiée, En apprentissage, Fragile, Maîtrisée, À réviser. Seuils documentés et diversité minimale de questions. Modèle prudent, non psychométrique. |
 | 7 | Moteur adaptatif | Partiel | Priorité aux faibles scores récents, diversité conservée. Pas d’IRT, de graphe de prérequis ou de calibration empirique. |
-| 8 | Banque structurée de milliers de questions | Partiel | 42 questions éditoriales + 1 152 variantes contrôlées = 1 194 items. Plus d’un millier, pas plusieurs milliers de problèmes indépendants ; relecture par enseignant externe encore requise. |
+| 8 | Banque structurée de milliers de questions | Partiel | 114 questions éditoriales + 1 152 variantes contrôlées = 1 266 items. Plus d’un millier, pas plusieurs milliers de problèmes indépendants ; relecture par enseignant externe encore requise. |
 | 9 | Générateur contrôlé d’exercices | Fait | Combinaisons finies de sujets, activités et compléments for/since, avec métadonnées, identifiants uniques et corrections. Pas de génération libre non validée. |
 | 10 | Cahier automatique des erreurs | Fait | Réponse choisie, attendu, raison du distracteur, règle et lien au cours. Les cours contiennent des exemples supplémentaires. Historique local limité à 5 000 réponses. |
 | 11 | Répétition espacée avec FSRS | Partiel | Révisions à échéance avec intervalles 1/3/7/14/30/60 jours. FSRS non intégré : aucune prétention FSRS ou optimisation de mémoire. |
@@ -42,3 +42,6 @@ Les quatre fiches courtes V1 sont remplacées par quatre masterclasses de dix se
 ## Vérification de l’apprentissage réel
 
 Les événements de réponse sont horodatés et les cartes reviennent à échéance. Aucun effet sur l’apprentissage n’a encore été démontré par une étude d’élèves. Un protocole pré-test, post-test, J3/J7/J30 reste à mener avec consentement approprié, sans publier de données d’élèves.
+
+## Enrichissement 2.1
+Huit ateliers de cas difficiles, 72 QCM supplémentaires et deux lectures corrigées. Résultats et limites de recherche détaillés dans ENRICHISSEMENT-V2.1.md. Aucun statut complet supplémentaire attribué aux fonctions encore partielles.

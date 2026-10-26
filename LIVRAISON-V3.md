@@ -51,3 +51,13 @@ Cours et exercices V3 sont inclus dans le cache hors connexion. Les PDF sont mis
 15 tests unitaires/intégration réussis. Régression V2 : 14 parcours, 96 combinaisons route/écran et 32 analyses axe réussies. V3 : 125 activités traitées, trois sujets menés à terme, 64 combinaisons route/écran avec axe, reprise, échéance, export/import et effacement réussis. Variantes : huit séances sans répétition sur chaque chapitre en test logique ; saisie, auto-évaluation, reprise et axe contrôlés dans le navigateur. Aucun échec restant dans ces suites. Un problème de focus du tableau mobile et une ambiguïté du test de QCM ont été corrigés. La qualification repose sur Edge/Chromium automatisé ; elle ne remplace pas une vérification sur appareils physiques, Firefox/Safari, lecteurs d’écran ou une relecture pédagogique indépendante. Les PDF sont visuellement vérifiés, mais ne sont pas certifiés PDF/UA.
 
 Pas de comptes synchronisés, de correction sémantique automatique, d’analyse phonétique, de suivi professeur ou de certification officielle ajoutés. La matrice AUDIT-30.md reste applicable avec ces limites.
+
+## Publication et contrôle public
+
+Code publié : `55315094d48864889b5483a7911a99bd43588e85`. Déploiement `dpl_5r59hkfmyfpBCAZb4i6mJ9C4YwuB`, état READY, sur le projet RM existant uniquement.
+
+Les deux alias de production répondent sans connexion Vercel. Le contrôle public a vérifié les 25 entrées du programme, la génération d’une série de variantes, la correction d’une étape de sujet blanc, la reprise du brouillon et le numéro WhatsApp. Les six PDF ont été récupérés sur chacun des deux alias, soit douze téléchargements ; leurs empreintes SHA-256 correspondent exactement aux fichiers locaux contrôlés. Aucune erreur JavaScript détectée par ce parcours public.
+
+- Programme : https://rm-digital-ecom-english-academy.vercel.app/#programme
+- Épreuves : https://rm-digital-ecom-english-academy.vercel.app/#papers
+- Preuves locales : `../verification-v3.json`.

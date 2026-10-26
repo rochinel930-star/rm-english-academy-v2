@@ -4,7 +4,7 @@ Rapport complet fourni directement par l’utilisateur le 26 octobre 2026, aprè
 
 | Rang | Ajout exact de l’audit | État | Réalisation / raison du reste |
 |---|---|---|---|
-| 1 | Déblocage public + véritable domaine | Partiel | Publication prévue sur le projet existant et retrait de la protection en production. Les alias vercel.app restent les domaines disponibles ; aucun domaine commercial acheté. Vérification finale dans LIVRAISON.md. |
+| 1 | Déblocage public + véritable domaine | Partiel | V2 publiée sur le projet existant ; production publique et protection limitée aux préversions. Les deux alias répondent 200 sans connexion ; aucun domaine commercial acheté. Vérification finale dans LIVRAISON.md. |
 | 2 | Nouveau dépôt GitHub indépendant et architecture modulaire | Fait | Nouveau dépôt dédié : https://github.com/rochinel930-star/rm-english-academy-v2. Modules de contenu, banque, moteur, interface, PWA et tests. Création via le navigateur ; transfert du code par Git, le connecteur ayant refusé l’écriture avec une erreur 403. Aucun autre dépôt modifié. |
 | 3 | Suite complète de tests automatiques | Partiel | Tests unitaires/intégration et parcours automatisés Edge/Chromium, responsive, axe et hors connexion. Firefox, WebKit, appareils physiques et qualification WCAG humaine à compléter. Résultats exacts dans TESTS.md. |
 | 4 | Comptes élèves avec progression persistante | Partiel | Profil anonyme durable par navigateur, export/import JSON, historique, brouillon et effacement. Pas de compte, serveur de données ni synchronisation multi-appareils. |

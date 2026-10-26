@@ -2,6 +2,8 @@
 
 Application éducative en français, indépendante de RéviCam et de tout autre projet.
 
+Site : https://rm-digital-ecom-english-academy.vercel.app/ · Dépôt : https://github.com/rochinel930-star/rm-english-academy-v2
+
 ## Démarrer
 
 Node.js 22 ou 24 : `npm start`, puis ouvrir http://127.0.0.1:4173.

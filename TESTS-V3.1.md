@@ -18,4 +18,4 @@ Les liens du pied de page étaient trop proches sur mobile : zones de clic agran
 
 ## Publication
 
-L’accès public et les empreintes des fichiers seront contrôlés par `tests/public-release.mjs` après le déploiement. La preuve de publication est consignée dans LIVRAISON-V3.1.md et dans le fichier externe `verification-v31.json`.
+`node tests/public-release.mjs` a réussi après le déploiement : deux alias anonymes HTTP 200, huit PDF vérifiés par empreinte SHA-256 sur chaque alias, quatre fichiers de la nouvelle version identiques aux fichiers locaux sur chaque alias. Recherche du chapitre Modaux, cinq variantes de relatives, réponse correcte au quatrième sujet, reprise après rechargement et lien WhatsApp vérifiés dans un navigateur anonyme. Aucune erreur JavaScript détectée. La preuve de publication est consignée dans LIVRAISON-V3.1.md et dans le fichier externe `verification-v31.json`.

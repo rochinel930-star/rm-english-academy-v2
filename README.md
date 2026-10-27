@@ -21,3 +21,6 @@ Lire AUDIT-30.md pour le périmètre et les limites de chaque demande, ARCHITECT
 ## Version 3
 Parcours : /#programme. Épreuves : /#papers. Rapport : LIVRAISON-V3.md. Tests : npm test ; node tests/v3-browser.mjs ; node tests/variants-browser.mjs (serveur local actif).
 Les PDF proviennent de public/papers.js. Exporter ce tableau vers test-results/papers.json, puis exécuter scripts/build-papers.py avec Python, reportlab et pypdf. Le script utilise Arial sous Windows ; adapter les chemins des polices pour un autre environnement. Aucun service externe ne génère ni ne note les réponses.
+
+## Enrichissement 3.1
+Voir [le rapport pédagogique et les changements](ENRICHISSEMENT-V3.1.md) et [les contrôles de livraison](TESTS-V3.1.md). Nouveaux modules : articles/quantités, modaux/déductions, relatives ; quatrième sujet blanc sur l’orientation. La navigation publique est organisée en quatre actions.

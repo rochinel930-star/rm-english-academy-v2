@@ -1,3 +1,4 @@
+import {enrichmentChapters} from './enrichment.js';
 // RM original teaching material. Alignment is documented separately from editorial extensions.
 const section=(title,text)=>({title,text});
 const task=(prompt,answer,why,manual=false)=>({prompt,answer,why,manual});
@@ -160,3 +161,5 @@ task('Complète : Let me check that I ___. (understand, passé)','understood','U
 task('Prépare puis joue un dialogue de six répliques pour demander un horaire et vérifier une information.','A: What time does the workshop start? B: At nine. A: Do you mean nine in the morning? B: Yes. A: Should I bring a notebook? B: Yes, please.','Grille : question claire, réponse, clarification, confirmation et nouvelle demande. Change l’heure à la seconde reprise.',true),
 task('Lis et enregistre : I asked for two copies, not three. Puis explique le mot à accentuer pour corriger le nombre.','Accentuer two, puis faire entendre not three.','Évalue l’intelligibilité et le contraste du nombre. Le modèle écrit guide l’intention ; aucun jugement automatique sur l’accent n’est effectué.',true)]}
 ];
+
+newChapters.push(...enrichmentChapters);

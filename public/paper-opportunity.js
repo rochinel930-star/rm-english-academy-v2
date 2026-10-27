@@ -1,0 +1,39 @@
+const gap=(prompt,answer,why)=>({prompt,answer,why,points:2});
+const read=(prompt,answer,why)=>({...gap(prompt,answer,why),manual:true});
+export const opportunityPaper={id:'opportunity',title:'Sujet 4 · Une chance accessible à chacun',theme:'Orientation, inclusion et monde du travail',text:`A careers club at a secondary school in Douala invited three local professionals to discuss their work with final-year pupils. The organisers initially planned to select participants through an online form. They believed this would save paper and make the process fair, since everyone would answer the same questions. The announcement asked pupils to submit their applications before Friday afternoon.
+
+By Thursday, only a small group had applied. One organiser concluded that the other pupils were not interested. However, a class representative questioned this explanation. Some pupils shared a telephone with relatives, while others had no affordable connection after school. A few had seen the announcement but did not understand whether previous work experience was required. The number of applications therefore revealed a problem, but did not explain its cause.
+
+The club added a paper form, opened a lunchtime help desk and extended the deadline. It also explained that applicants did not need previous experience or a personal device. To avoid favouring confident writers, the organisers asked for a short statement of interest rather than a polished application letter. When more pupils applied than the room could hold, places were allocated by a draw among eligible applicants. A second session was planned for those who could not attend the first.
+
+During the meeting, a mechanic, a translator and a laboratory assistant described both satisfying and difficult aspects of their jobs. They discussed training, teamwork and the importance of asking for clarification. No speaker promised immediate employment. Pupils were encouraged to prepare questions and to compare the information with other reliable sources before making decisions about their future.
+
+Afterwards, the club collected anonymous comments. Several participants said that the alternative application methods had helped them attend. Others wanted more time for individual questions. The organisers could report that participation had widened, but they could not claim that the meeting had improved anyone's employment prospects. That would require evidence collected over a longer period. Their next report would distinguish what they had observed from what they hoped to achieve.`,grammar:[
+gap('Choose a or an: The club offered ___ opportunity to ask questions.','an','Opportunity commence par un son vocalique : an précède ici un nom singulier dénombrable.'),
+gap('Choose much or many: How ___ information did the speakers provide?','much','Information est indénombrable dans ce sens ; many demanderait un nom pluriel dénombrable.'),
+gap('Complete with whose or who: Pupils ___ phones were shared could use paper forms.','whose','Whose relie les élèves aux téléphones qu’ils partageaient ; il précède phones.'),
+gap('Complete the participle: The club should have ___ the requirements earlier. (explain)','explained','Should have est suivi du participe explained et exprime ici un conseil rétrospectif.'),
+gap('Choose do not have to or must not: Applicants ___ own a smartphone; paper forms are accepted.','do not have to','Le smartphone n’est pas obligatoire. Must not exprimerait une interdiction de le posséder.')],vocabulary:[
+gap('Complete with the noun: The club wanted to widen ___. (participate)','participation','Participation est le nom correspondant au verbe participate.'),
+gap('Choose the opposite of compulsory: optional / essential.','optional','Optional signifie facultatif ; essential signifie essentiel et ne donne pas l’opposé demandé.'),
+gap('Complete: Pupils could apply ___ a place in the second session.','for','Apply for introduit la place ou le poste sollicité ; apply to introduit notamment l’organisme destinataire.'),
+gap('Complete the phrasal verb meaning investigate: The club decided to look ___ the problem.','into','Look into signifie examiner ou enquêter sur un problème, contrairement à look after, prendre soin de.'),
+gap('Complete with the adjective: The connection was not ___. (afford)','affordable','Affordable signifie que le coût est accessible ; la place après was not appelle ici un adjectif.')],reading:[
+read('What did the organisers initially believe about the online form?','They believed it would save paper and be fair because everyone would answer the same questions.','1 point pour l’économie de papier ; 1 pour l’équité supposée liée aux mêmes questions.'),
+read('Give two reasons why some pupils had not applied by Thursday.','Some shared a phone with relatives, and others lacked an affordable connection after school.','1 point par obstacle distinct ; l’incertitude sur l’expérience requise est aussi acceptable.'),
+read('How were places allocated when there were too many applicants?','They were allocated by a draw among eligible applicants.','1 point pour le tirage au sort ; 1 pour sa limitation aux candidats admissibles.'),
+read('Does the passage prove that the pupils who did not apply were uninterested? Explain.','No. It gives access barriers and unclear requirements as possible reasons for not applying.','1 point pour le refus de la conclusion ; 1 pour un obstacle précis qui justifie ce refus.'),
+read('Distinguish one observed result from one outcome that remained unproven.','Participation widened, but improved employment prospects were not demonstrated.','1 point pour l’élargissement de la participation ; 1 pour l’absence de preuve sur les perspectives d’emploi.')],writing:'Write a formal letter of 200–250 words to your head teacher proposing an inclusive careers event. Explain two barriers pupils may face, propose practical solutions, describe how places would be allocated fairly, and say how you would evaluate the event. Do not invent a claim that the event guarantees employment.',outline:['Ouvrir une lettre formelle avec objet clair et formule de politesse.','Présenter deux obstacles et une réponse concrète à chacun.','Expliquer une attribution transparente des places et une solution pour les absents.','Évaluer l’accès et l’utilité sans promettre un effet non démontré sur l’emploi.'],model:`Dear Head Teacher,
+
+I am writing to propose a careers afternoon that would allow all final-year pupils to explore different training routes. Such an event could help us ask informed questions before choosing our next steps.
+
+Two barriers deserve attention. Some pupils cannot access online announcements regularly, while others may believe that only pupils with high marks are welcome. We should therefore display notices in every classroom and explain clearly that the event is open to all final-year pupils. A paper registration form should be available alongside the online version. Class representatives could also answer questions during the lunch break.
+
+I suggest inviting speakers from several occupations and giving each speaker the same amount of time. If registrations exceed the room capacity, places could be allocated through a publicised draw among eligible applicants. A second session or a written summary would help pupils who cannot attend the first meeting. No pupil should have to pay to register.
+
+After the event, we could collect anonymous feedback about access, clarity and unanswered questions. We should also record how many registered pupils actually attended. These measures would help us improve the next event, although they would not prove that participants will find employment more easily.
+
+Thank you for considering this proposal. I would be pleased to help the organising team prepare the notices and registration forms.
+
+Yours faithfully,
+A member of the careers club`};

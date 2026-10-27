@@ -1,3 +1,4 @@
+import {enrichmentQuestions} from './enrichment.js';
 import {advancedQuestions} from './advanced.js';
 const make=(skill,level,prompt,options,correct,reasons)=>({id:'q'+(++seq),skill,level,prompt,options,correct,reasons});let seq=0;
 export const bank=[];
@@ -49,5 +50,5 @@ const subjects=[['Amina','has'],['My brother','has'],['Our teacher','has'],['The
 const activities=[['preparing for the debate','préparer le débat'],['working on the project','travailler au projet'],['waiting for the bus','attendre le bus'],['practising English','pratiquer l’anglais'],['studying literature','étudier la littérature'],['collecting books','collecter des livres'],['discussing the proposal','discuter de la proposition'],['revising grammar','réviser la grammaire'],['organising the event','organiser l’événement'],['reading in the library','lire à la bibliothèque'],['painting the classroom','peindre la salle'],['training for the competition','s’entraîner pour la compétition']];
 const times=[['two hours','for'],['several weeks','for'],['nearly an hour','for'],['the past few days','for'],['a long time','for'],['thirty minutes','for'],['Monday','since'],['eight o’clock','since'],['the lesson ended','since'],['the sun rose','since'],['the holidays began','since'],['breakfast','since']];
 for(const [subject,have] of subjects)for(const [activity,fr] of activities)for(const [time,prep]of times){const options=['for','since','ago'];const correct=options.indexOf(prep);bank.push({id:`g-${subject}-${activity}-${time}`,skill:'perfect-continuous',level:time.includes('the ')?3:2,prompt:`${subject} ${have} been ${activity} ___ ${time}.`,options,correct,reasons:options.map(x=>x===prep?`${prep==='for'?'For introduit une durée':'Since introduit un point de départ'} : ${time}. ${activity} = ${fr}.`:x==='ago'?'Ago situe un événement passé après une durée ; il ne relie pas cette activité au présent.':`${x==='for'?'For demanderait une durée':'Since demanderait un point de départ'} ; « ${time} » est ici ${prep==='for'?'une durée':'une origine'}.`),generated:true});}
-bank.push(...advancedQuestions);
+bank.push(...advancedQuestions,...enrichmentQuestions);
 export const editorial=bank.filter(q=>!q.generated);

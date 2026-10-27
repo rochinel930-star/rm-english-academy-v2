@@ -1,4 +1,4 @@
-import json, pathlib, html
+import json, pathlib, html, sys
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, HRFlowable
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
@@ -7,6 +7,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from pypdf import PdfReader
 base=pathlib.Path(__file__).resolve().parent.parent
 papers=json.loads((base/'test-results'/'papers.json').read_text(encoding='utf-8'))
+if len(sys.argv)>1: papers=[p for p in papers if p['id'] in sys.argv[1:]]
 out=base/'public'/'downloads';out.mkdir(exist_ok=True)
 pdfmetrics.registerFont(TTFont('RM','C:/Windows/Fonts/arial.ttf'))
 pdfmetrics.registerFont(TTFont('RM-Bold','C:/Windows/Fonts/arialbd.ttf'))

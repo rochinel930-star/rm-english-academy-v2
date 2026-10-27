@@ -1,3 +1,4 @@
+import {opportunityPaper} from './paper-opportunity.js';
 const gap=(prompt,answer,why)=>({prompt,answer,why,points:2});
 const read=(prompt,answer,why)=>({prompt,answer,why,points:2,manual:true});
 export const papers=[
@@ -113,3 +114,5 @@ After four weeks, we could discuss what worked and change what did not. Please j
 
 Thank you for listening.`;
 export function paperItems(p){return [...p.grammar.map(q=>({...q,area:'Grammar'})),...p.vocabulary.map(q=>({...q,area:'Vocabulary'})),...p.reading.map(q=>({...q,area:'Reading'})),{prompt:p.writing,answer:p.model,why:p.outline.join(' '),area:'Composition',manual:true,points:10}];}
+
+papers.push(opportunityPaper);

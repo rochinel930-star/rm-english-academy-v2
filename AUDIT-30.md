@@ -48,3 +48,6 @@ Huit ateliers de cas difficiles, 72 QCM supplémentaires et deux lectures corrig
 
 ## Livraison V3
 25 chapitres, 125 activités de départ, 1 000 combinaisons de production guidée et trois sujets blancs avec six PDF. Modes accompagné/examen, reprise et auto-évaluation explicite. Voir LIVRAISON-V3.md. Les lignes 18 à 22 restent partielles au sens d’un alignement officiel certifié : les sujets sont originaux RM et les réponses libres sont auto-évaluées. Comptes, IA réelle et dashboard enseignant restent non livrés.
+
+## Enrichissement 3.1
+28 chapitres, 140 activités initiales, 1 120 combinaisons de production guidée, 1 290 QCM (dont 138 éditoriaux), quatre sujets blancs et huit PDF. Navigation simplifiée et nouvelles notions détaillées dans ENRICHISSEMENT-V3.1.md. Les statuts des trente points restent prudents : cet enrichissement ne fournit ni comptes synchronisés, ni IA réelle, ni validation officielle du programme ou des épreuves.

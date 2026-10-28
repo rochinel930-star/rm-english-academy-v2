@@ -1,3 +1,4 @@
+import {extensionEnglish} from './extension-data.js';
 export const practiceEnglish={
 simple:'Describe two habits and one responsibility using three different subjects.|Write a yes/no question and a subject question.|Make two statements negative and explain what happens to -s.|Contrast a habit with a temporary action in two sentences.|Announce a future step after when or as soon as.',
 continuous:'Describe three actions in progress using I, she and they.|Write a question and a negative statement about a temporary activity.|Contrast a temporary situation with a habit.|Describe a confirmed future arrangement and explain your tense choice.|Describe an ongoing action using the passive.',
@@ -31,3 +32,5 @@ determiners:'Present three resources using one countable and two uncountable nou
 'pronouns-reference':'Introduce two people and make clear who acts on whom.|Describe possessions using possessive determiners and then pronouns.|Contrast a reflexive action with a reciprocal action.|Compare two objects and then request an additional one.|Write an ambiguous sentence and then remove its ambiguity.'
 };
 export const englishContexts=[['A class project','You are organising group work with a deadline, two people in charge and an unexpected difficulty.'],['A neighbourhood initiative','A group wants to make a service accessible to people with limited resources.'],['Speaking to an official','Ask a precise question, explain your need and check the answer politely.'],['A message to verify','A message is circulating, but its date or source is missing. Decide what you can safely claim.'],['Justifying a choice','Two options offer different advantages. Your budget and time are limited.'],['Recounting an event','A planned activity was interrupted, then a solution was found.'],['A proposal for your school','Present an improvement, a condition for success and a way to assess the result.'],['A conversation with a classmate','Your partner has misunderstood a detail. Rephrase it and check that you mean the same thing.']];
+
+Object.assign(practiceEnglish,extensionEnglish);

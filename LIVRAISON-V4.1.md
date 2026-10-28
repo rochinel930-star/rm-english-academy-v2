@@ -20,4 +20,10 @@ Le parcours reste à **30 chapitres**. Cette mise à jour ne prétend pas ajoute
 ## Vérification et publication
 23 tests unitaires/intégration réussis. Suite générale : 14 parcours réussis, 96 contrôles route/écran et 32 analyses axe, sans erreur détectée. Suite English-first : 30 chapitres, 150 activités initiales soumises, 150 consignes de production affichées, aides françaises, recherche bilingue, reprise des brouillons et hors connexion ; 82 contrôles route/écran et analyses axe, sans erreur JavaScript, violation détectée ou débordement.
 
-Ces tests utilisent Edge/Chromium et des dimensions émulées ; ils ne certifient pas la conformité WCAG complète ni le comportement sur tous les appareils. La vérification publique après publication reste à consigner.
+Ces tests utilisent Edge/Chromium et des dimensions émulées ; ils ne certifient pas la conformité WCAG complète ni le comportement sur tous les appareils. La vérification publique a réussi sur les deux alias : 48 empreintes de ressources contrôlées, deux parcours anonymes, titres anglais, six traductions de section visibles dans le chapitre vérifié, consignes anglaises dans les ateliers et sauvegarde de rédaction. Aucune erreur JavaScript détectée.
+
+## Publication confirmée
+
+Lien : https://rm-digital-ecom-english-academy.vercel.app/
+
+Commit source : `1102f49b453aa38abcf3c19d143eccf723013d4f`. Déploiement : `dpl_GfPysQbhpTG3a1QveXZ3ohNy6Pv7`, READY. Les deux alias publics sont attachés sans erreur et répondent sans connexion Vercel. Preuves : `outputs/verification-v41.json`.

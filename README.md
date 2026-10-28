@@ -31,3 +31,6 @@ Voir [le rapport pédagogique et les changements](ENRICHISSEMENT-V3.1.md) et [le
 Nouvelles entrées : `/#today`, `/#coverage`, `/#reading-hub`, `/#writing-hub`. Révision FSRS via ts-fsrs 5.2.3, module MIT fourni localement. Attribution : THIRD-PARTY-NOTICES.md.
 
 Validation : `npm test`, `node tests/browser.mjs`, `node tests/v3-browser.mjs`, `node tests/v4-browser.mjs`. Serveur local nécessaire aux parcours. Rapport : LIVRAISON-V4.md ; matrice : AUDIT-30.md.
+
+## Version 4.1 — English-first
+Titres et consignes anglais, traductions françaises discrètes, aides bilingues. Les 30 chapitres et la progression sont conservés. Voir LIVRAISON-V4.1.md. Modules : public/language.js et public/language-practice.js. Tests : npm test ; node tests/english-browser.mjs.

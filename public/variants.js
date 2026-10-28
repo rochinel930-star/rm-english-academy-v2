@@ -1,3 +1,4 @@
+import {v4Objectives} from './v4-chapters.js';
 import {enrichmentObjectives} from './enrichment.js';
 // Five distinct production objectives × eight communicative contexts per chapter.
 // These are guided open tasks, not automatically graded QCM or AI-generated answers.
@@ -163,6 +164,6 @@ const objectives={
 ['Présente une idée en une minute avec une pause entre les arguments.','Message compréhensible, exemples concrets, débit adapté.','I suggest two changes. First… Second…'],
 ['Enregistre deux versions et choisis un objectif précis de progrès.','Compare intelligibilité, négation, terminaisons et rythme ; pas de faux score phonétique.','Dans la seconde version, je fais mieux entendre not et les pluriels.']]
 };
-Object.assign(objectives,enrichmentObjectives);
+Object.assign(objectives,enrichmentObjectives,v4Objectives);
 export function variantsFor(id){return (objectives[id]||[]).flatMap(([instruction,criteria,model],family)=>contexts.map(([name,context],scene)=>({id:`${id}-f${family}-s${scene}`,family,scene,name,prompt:`${instruction} Contexte : ${name.toLowerCase()}. ${context}`,criteria,model})));}
 export function drawVariants(id,seen=[],count=5,rng=Math.random){const pool=variantsFor(id);const fresh=pool.filter(q=>!seen.includes(q.id));const available=fresh.length?fresh:pool;const chosen=[];for(let family=0;family<5;family++){const group=available.filter(q=>q.family===family);if(group.length)chosen.push(group[Math.floor(rng()*group.length)])}return chosen.slice(0,count);}

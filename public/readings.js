@@ -1,3 +1,4 @@
+import {newReadings} from './literacy.js';
 export const extraReadings=[
 {id:'science',title:'Science · A cooler classroom',text:'For three weeks, a science club in Maroua measured the temperature in two empty classrooms at the same times each day. One room had a metal roof; the other had a similar roof shaded by a large tree. The shaded room was usually cooler in the afternoon. At first, the pupils announced that planting trees would solve every school’s heat problem. Their teacher asked them to slow down. The rooms also had different windows, and the club had not measured wind speed. The observations suggested a useful possibility, but they did not prove that shade alone explained the difference. The pupils therefore planned a second investigation using two identical model buildings. They would change only the amount of shade and repeat the measurements. Meanwhile, they wrote to the head teacher recommending that existing trees be protected. They described this as a practical precaution, not as a conclusion that their small study had established beyond doubt.',questions:[
 ['What did the club observe?',['The shaded room was usually cooler in the afternoon.','Every shaded room was always cold.','Metal roofs never become hot.'],0,'Le texte dit usually et in the afternoon. Transformer cette observation limitée en règle universelle serait une extrapolation.'],
@@ -12,3 +13,5 @@ export const extraReadings=[
 ['How does Nelly assess the article’s impact?',['Everyone now checks every claim.','It may have encouraged some readers to ask questions.','It changed nobody’s behaviour.'],1,'A few et hoped expriment un effet limité et prudent. Le texte ne permet ni everyone ni nobody.']
 ]}
 ];
+
+extraReadings.push(...newReadings);

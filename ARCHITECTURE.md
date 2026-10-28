@@ -1,6 +1,6 @@
 # Architecture et évolution
 
-Application statique modulaire, sans dépendance JavaScript en production. Le site V1 était un seul `src/index.html` déployé par API, sans Git source dans les métadonnées retournées. Le projet Vercel existant reste le seul destinataire autorisé : `prj_vxfVz2cEWXfAsoE3QasxBeyNx3hd`, équipe `team_ax9q51jVyGhygNUnI75caCzk`.
+Application statique modulaire, avec un composant libre de planification des révisions fourni localement (ts-fsrs 5.2.3). Le site V1 était un seul `src/index.html` déployé par API, sans Git source dans les métadonnées retournées. Le projet Vercel existant reste le seul destinataire autorisé : `prj_vxfVz2cEWXfAsoE3QasxBeyNx3hd`, équipe `team_ax9q51jVyGhygNUnI75caCzk`.
 
 ## Modules
 
@@ -31,3 +31,14 @@ Prévoir authentification, quotas, plafond budgétaire, limitation de débit, mo
 ## Qualité éditoriale
 
 Un nouvel item doit avoir un identifiant unique, une compétence, une difficulté, une réponse unique dans le contexte et une explication de chaque choix. Les variantes ne sont pas des milliers de compétences indépendantes. La validation structurelle automatique ne prouve pas la justesse grammaticale : relecture par enseignant recommandée. Pour un véritable examen blanc camerounais, utiliser le référentiel et les annales avec leurs droits et date de validité vérifiés.
+
+## Modules V4
+- `balanced-bank.js` : nouveaux QCM répartis entre les familles auparavant peu représentées.
+- `v4-chapters.js` : repères temporels et références pronominales.
+- `literacy.js` : lectures et ateliers de rédaction originaux.
+- `learning-path.js` : séance quotidienne, couverture et accès aux ateliers.
+- `scheduler.js` / `vendor/fsrs.js` : adaptateur FSRS, validation et persistance des cartes.
+
+Les anciennes questions générées ne sont plus candidates à la sélection ; elles restent disponibles pour rendre les anciennes erreurs. La sélection répartit les domaines, puis les familles, avec priorité aux questions non vues dans chaque domaine. Quand un domaine est épuisé, sa série peut recommencer sans attendre les autres domaines. Les séances ciblées peuvent être plus courtes si peu de questions inédites restent.
+
+Les brouillons des six sujets sont stockés séparément ; le mini-examen utilise son propre brouillon. Les données existantes version 2 et version 3 restent lisibles. Aucun changement de domaine Vercel ou de stockage serveur.

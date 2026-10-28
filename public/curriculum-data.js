@@ -1,3 +1,4 @@
+import {v4Chapters} from './v4-chapters.js';
 import {enrichmentChapters} from './enrichment.js';
 // RM original teaching material. Alignment is documented separately from editorial extensions.
 const section=(title,text)=>({title,text});
@@ -163,3 +164,5 @@ task('Lis et enregistre : I asked for two copies, not three. Puis explique le mo
 ];
 
 newChapters.push(...enrichmentChapters);
+
+newChapters.push(...v4Chapters);

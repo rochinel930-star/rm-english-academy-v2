@@ -1,4 +1,4 @@
-# RM English Academy V2
+# RM English Academy V4
 
 Application éducative en français, indépendante de RéviCam et de tout autre projet.
 
@@ -24,3 +24,10 @@ Les PDF proviennent de public/papers.js. Exporter ce tableau vers test-results/p
 
 ## Enrichissement 3.1
 Voir [le rapport pédagogique et les changements](ENRICHISSEMENT-V3.1.md) et [les contrôles de livraison](TESTS-V3.1.md). Nouveaux modules : articles/quantités, modaux/déductions, relatives ; quatrième sujet blanc sur l’orientation. La navigation publique est organisée en quatre actions.
+
+## Version 4 — 28 octobre 2026
+30 chapitres, 150 activités initiales, 260 QCM éditoriaux actifs, 1 200 combinaisons de production guidée (auto-évaluées), huit lectures autonomes, six ateliers de rédaction et quatre sujets blancs avec huit PDF.
+
+Nouvelles entrées : `/#today`, `/#coverage`, `/#reading-hub`, `/#writing-hub`. Révision FSRS via ts-fsrs 5.2.3, module MIT fourni localement. Attribution : THIRD-PARTY-NOTICES.md.
+
+Validation : `npm test`, `node tests/browser.mjs`, `node tests/v3-browser.mjs`, `node tests/v4-browser.mjs`. Serveur local nécessaire aux parcours. Rapport : LIVRAISON-V4.md ; matrice : AUDIT-30.md.

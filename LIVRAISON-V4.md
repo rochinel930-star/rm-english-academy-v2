@@ -1,6 +1,6 @@
 # Livraison V4 — RM English Academy
 
-Date : 28 octobre 2026. Déploiement et vérification publique : à compléter après les contrôles.
+Date : 28 octobre 2026. Version publiée et vérifiée publiquement.
 
 ## Changement central
 La V3.1 affichait 1 290 QCM, dont 1 152 combinaisons for/since. La V4 retire ces combinaisons des séances actives et conserve leur historique. La banque active comprend 260 QCM éditoriaux, répartis entre 31 familles ; chacun des 30 chapitres dispose de 8 à 11 QCM. La page « Compétences et exercices » permet de vérifier cette répartition.
@@ -32,3 +32,18 @@ Le corpus est enrichi et utilisable, mais ne constitue pas une certification de 
 Les données restent locales au navigateur et à l’alias utilisé. Comptes synchronisés, dashboard professeur, studio éditorial et tuteur IA réel restent absents. Les rédactions et réponses ouvertes ne reçoivent pas de note sémantique automatique. La synthèse vocale dépend de l’appareil ; aucune analyse de prononciation n’est simulée.
 
 La matrice AUDIT-30.md conserve les trente exigences exactes avec statut et raisons. Les ambitions non livrées restent marquées partielles ou non faites.
+
+## Publication vérifiée
+
+Lien à partager : https://rm-digital-ecom-english-academy.vercel.app/
+
+Alias également contrôlé : https://rm-digital-ecom-english-academy-devs-projects-fc924e78.vercel.app/
+
+- Dépôt dédié : https://github.com/rochinel930-star/rm-english-academy-v2
+- Commit source publié : `b7231a96077a8d89eeb5ea5b49649d79cd4f464b`.
+- Déploiement de production : `dpl_CGNvSijtyVgUfaAg5Np1CXrX6PKS`, état Vercel READY, deux alias attachés, sans erreur d’alias.
+- Les deux pages répondent HTTP 200 sans redirection SSO. Les huit PDF et les ressources V4 contrôlées ont la même empreinte SHA-256 que les fichiers locaux.
+- Parcours anonyme sur chaque alias : recherche parmi 30 chapitres, atelier de cinq variantes, correction et reprise du sujet Opportunity, séance quotidienne, sauvegarde d’un brouillon, tableau de couverture et lien WhatsApp.
+- Aucune erreur JavaScript dans ces parcours publics. Les essais utilisent un profil de navigateur de test, sans écrire dans les données personnelles d’un élève.
+
+Bilan détaillé : TESTS-V4.md. Les fonctions non livrées restent explicitement décrites dans AUDIT-30.md ; publication réussie ne signifie pas que toutes les ambitions de cette feuille de route sont achevées.

@@ -25,4 +25,4 @@ Edge/Chromium sur Windows, largeurs émulées 360, 390, 412, 768, 1366 et 1440 p
 
 ## Publication
 
-La vérification anonyme des deux alias, les empreintes des ressources et les téléchargements PDF seront consignés après déploiement dans LIVRAISON-V4.md et verification-v4.json.
+`node tests/public-release.mjs` : réussi sur les deux alias publics. Deux pages HTTP 200 sans SSO ; 44 empreintes de ressources vérifiées au total (dont les huit PDF sur chaque alias) ; deux parcours anonymes réussis, sans erreur JavaScript. Déploiement READY et commit source consignés dans LIVRAISON-V4.md. Preuves détaillées : verification-v4.json dans le dossier outputs.
